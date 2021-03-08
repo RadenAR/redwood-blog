@@ -9,6 +9,6 @@ export const handler = async (event, context) => {
       'Content-Type': 'application/json',
       'Access-Control-Allow-Origin': '*',
     },
-    body: settings,
+    body: JSON.stringify(settings),
   }
 }
